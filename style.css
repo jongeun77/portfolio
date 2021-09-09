@@ -23,10 +23,12 @@
  --weight-bold: 700;
  --weight-semi-bold: 600;
  --weight-regular: 400;
-
  /* Size */
  --size-border-radius: 4px;
+ /* animation-duration */
+ --animation-duration: 300ms;
 }
+
 /* Universal tags */
 *{
   box-sizing: border-box;
@@ -42,6 +44,12 @@ a{
 ul{
   list-style: none;
   padding-left: 0;
+}
+button{
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 /* Typography */
 h1{
@@ -68,6 +76,7 @@ p{
   color: var(--color-black);
   margin: 4px 0;
 }
+
 /* Navbar */
 #navbar{
   display: flex;
@@ -99,3 +108,108 @@ p{
   background-color: var(--color-dark-pink);
   border-radius: 4px;
 }
+/* Home */
+#home{
+  background: url('imgs/home-background1.png')no-repeat center/cover;
+  padding: 40px;
+  text-align: center;
+}
+.home__avatar{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--color-white);
+}
+.home__title,
+.home__description{
+  color: var(--color-white);
+}
+.home__contact{
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: 4px;
+}
+ /* About */
+ .section{
+   padding: 50px;
+   text-align: center;
+   max-width: 1200px;
+   margin: auto;
+ }
+ .about__majors{
+   display: flex;
+   justify-content: space-between;
+   margin: 80px 0;
+ }
+ .major__icon{
+   width: 170px;
+   height: 170px;
+   font-size: 70px;
+   line-height: 170px;
+   margin: auto;
+   border: 1px solid var(--color-blue);
+   border-radius: 50%;
+   margin-bottom: 16px;
+   color: var(--color-blue);
+ }
+ .major__icon i{
+   transition: all var(--animation-duration) ease;
+ }
+ .major__icon:hover i{
+   color: var(--color-pink);
+   transform: scale(1.1) rotate(-30deg);
+ }
+.major__title,
+.major__description{
+  color: var(--color-dark-grey);
+}
+.major__description{
+  font-size: var(--font-small);
+}
+.job{
+  display: flex;
+  align-items: center;
+}
+.job__description{
+  margin: 0 16px 10px;
+  text-align: left;
+}
+.job:nth-child(4) .job__description,
+.job:nth-child(5) .job__description
+
+{
+  margin-left: 34px;
+}
+.job:nth-child(3) .job__description{
+  margin-left: 38px;
+}
+.job__name,
+.job__period{
+  color: var(--color-light-grey);
+}
+.job__name{
+  font-size: var(--font-small);
+}
+
+.job:nth-child(1) .job__logo,
+.job:nth-child(2) .job__logo,
+.job:nth-child(6) .job__logo,
+.job:nth-child(7) .job__logo,
+.job:nth-child(8) .job__logo{
+  width: 80px;
+}
+.job:nth-child(3) .job__logo{
+  width: 50px;
+  margin-left: 12px;
+}
+.job:nth-child(4) .job__logo,
+.job:nth-child(5) .job__logo{
+  width: 50px;
+  margin-left: 15px;
+}
+
