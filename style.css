@@ -157,7 +157,7 @@ p {
   text-align: center;
   margin: auto;
 }
-
+/* 섹션안에 컨테이너를 줘서 더이상 안늘어나게 중앙정렬*/
 .section__container {
   max-width: 1200px;
   margin: auto;
@@ -435,6 +435,7 @@ p {
 }
 .contact__title{
   margin: 32px 0;
+  color: var(--color-white);
 }
 .contact__links{
   font-size: var(--font-large);
@@ -443,5 +444,8 @@ p {
 .contact__links i:hover{
   color: var(--color-yellow);
   transform: all var(--animation-duration);
+}
+.contact__rights{
+  color: var(--color-white);
 }
 
