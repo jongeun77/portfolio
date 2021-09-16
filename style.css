@@ -162,7 +162,9 @@ p {
   max-width: 1200px;
   margin: auto;
 }
-
+.section__container p{
+  line-height: 1.4;
+}
 .about__majors {
   display: flex;
   justify-content: space-between;
@@ -448,4 +450,42 @@ p {
 .contact__rights{
   color: var(--color-white);
 }
-
+.navbar__toggle-btn{
+  position:absolute;
+  right: 32px;
+  top: 14px;
+  font-size: 24px;
+  color: var(--color-white);
+  display: none;
+}
+@media screen and (max-width: 768px){
+  .navbar__toggle-btn{
+    display: block;
+  }
+  #navbar{
+    flex-direction: column; /* logo, navbard가 수직으로되야하고 얼라인 아이템이반대로 가로가 되니까 왼쪽*/
+    align-items: flex-start;
+  }
+  .navbar__menu{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .about__majors{
+    flex-direction: column;
+  }
+  .major{
+    margin-bottom: 38px;
+  }
+  .skillset{
+    flex-direction: column;
+  }
+  .project{
+    flex-grow: 1;
+  }
+  .testimonial__avatar{
+    width: 80px;
+    height: 80px;
+  }
+}
