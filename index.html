@@ -18,393 +18,399 @@
   <!--favicon-->
   <link rel="icon" type="image/png" href="imgs/pavicon.png">
   <!--css&js-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script src="main.js" defer></script>
 </head>
-<body>
-  <!--Navbar-->
-  <nav id="navbar">
-    <div class="navbar__logo">
-      <i class="fab fa-diaspora"></i>
-      <a href="#">Jongeun</a>
-    </div>
-    <div class="navbar__menu">
-      <ul class="navbar__menu">
-        <li class="navbar__menu__item active" data-link="#home">Home</li>
-        <li class="navbar__menu__item" data-link="#about">About</li>
-        <li class="navbar__menu__item" data-link="#skills">Skills</li>
-        <li class="navbar__menu__item" data-link="#work">My work</li>
-        <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li>
-        <li class="navbar__menu__item" data-link="#contact">contact</li>
-      </ul>
-    </div>
-    <!-- Toggle button-->
-    <button class="navbar__toggle-btn">
-      <i class="fas fa-bars"></i>
-    </button>
-  </nav>
-  <!--Home-->
-  <section id="home">
-    <img src="imgs/profile.png" alt="Jongeun's profile photo" class="home__avatar">
-    <h1 class="home__title">
-      Hello,<br>I'm Jongeun Oh
-    </h1>
-    <h2 class="home__description">
-      A Web publisher currently residing in Seoul, Korea
-    </h2>
-    <button class="home__contact">Contact Me</button>
-  </section>
-  <!--About-->
-  <section id="about" class="section">
-    <div class="section__container">
-      <h1>About me</h1>
-      <p>
-        최적의 사용자 경험을 제공하는 것을 목표로 하는 웹퍼블리셔, 오종은입니다.
-        Parsons 졸업후 Art cusrator & maketer로 근무했고
-        퍼포먼스마케팅에 관심갖던중 coding에 매료되어 웹퍼블리셔로 전향하게되었어요.
-        코드를 잘 그려내기 위해 계속 공부중!
-        창조적인 성향만큼 새로운 문제들을 습득하는것을 좋아해서 디자이너,개발자와
-        원활한 협업을 끌어내어 'together' 좋은 결과물을 만드는게 목표입니다.
-      </p>
-      <div class="about__majors">
-        <div class="major">
-          <div class="major__icon">
-            <i class="fab fa-html5"></i>
-          </div>
-          <h2 class="major__title">
-            HTML5
-          </h2>
-          <p class="major__description">
-            웹 표준을 바탕으로 꼼꼼한 시멘틱 마크업을 작성
-          </p>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fab fa-css3"></i>
-          </div>
-          <h2 class="major__title">
-            CSS3
-          </h2>
-          <p class="major__description">
-            유지보수를 위한 효율적인 코드와 깔끔한 레이아웃작성<br>
-            BEM 방법론에 따른 네이밍
-          </p>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fab fa-js"></i>
-            <!-- <img src="imgs/jquery.png" alt="jquery"> -->
-          </div>
-          <h2 class="major__title">
-            jQuery & Javascript
-          </h2>
-          <p class="major__description">
-            다큐먼트에 동적요소 부여와 다양한 plug-in제어
+  <body>
+    <!--Navbar-->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-diaspora"></i>
+        <a href="#">Jongeun</a>
+      </div>
+      <div class="navbar__menu">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item active" data-link="#home">Home</li>
+          <li class="navbar__menu__item" data-link="#about">About</li>
+          <li class="navbar__menu__item" data-link="#skills">Skills</li>
+          <li class="navbar__menu__item" data-link="#work">My work</li>
+          <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li>
+          <li class="navbar__menu__item" data-link="#contact">contact</li>
+        </ul>
+      </div>
+      <!-- Toggle button-->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <!--Home-->
+    <section id="home">
+      <div class="home__container">
+        <img src="imgs/profile.png" alt="Jongeun's profile photo" class="home__avatar">
+        <h1 class="home__title">
+          Hello,<br>I'm Jongeun Oh
+        </h1>
+        <h2 class="home__description">
+          A Web publisher currently residing in Seoul, Korea
+        </h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+    <!--About-->
+    <section id="about" class="section">
+      <div class="section__container">
+        <h1>About me</h1>
+        <p>
+          최적의 사용자 경험을 제공하는 것을 목표로 하는 웹퍼블리셔, 오종은입니다.
+          Parsons 졸업후 Art cusrator & maketer로 근무했고
+          퍼포먼스마케팅에 관심갖던중 coding에 매료되어 웹퍼블리셔로 전향하게되었어요.
+          코드를 잘 그려내기 위해 계속 공부중!
+          창조적인 성향만큼 새로운 문제들을 습득하는것을 좋아해서 디자이너,개발자와
+          원활한 협업을 끌어내어 'together' 좋은 결과물을 만드는게 목표입니다.
         </p>
-        </div>
-      </div>
-      <div class="about__jobs">
-        <div class="job">
-          <img src="imgs/parsons.gif" alt="parsons" class="job__logo" >
-          <div class="job__description">
-            <p class="job__name">Parsons School of Design,Bachelor of Fine Arts</p>
-            <p class="job__period">2005-2009</p>
-        </div>
-        </div>
-        <div class="job">
-          <img src="imgs/sva.png" alt="sva" class="job__logo">
-          <div class="job__description">
-            <p class="job__name">School of Visual Art, Fine arts</p>
-            <p class="job__period">2004</p>
-          </div>
-        </div>
-        <div class="job">
-          <img src="imgs/dku.jpeg" alt="dku" class="job__logo">
-          <div class="job__description">
-            <p class="job__name">Dankook Graduate School, Visual Design</p>
-            <p class="job__period">2000-2001</p>
-          </div>
-        </div>
-        <div class="job">
-          <img src="imgs/ezen.png" alt="ezen" class="job__logo">
-          <div class="job__description">
-            <p class="job__name">Ezen academy: Responsive Web, jQuery and JavaScipt, Adobe photoshop, Illust</p>
-            <p class="job__period">2005-2009</p>
-          </div>
-        </div>
-        <div class="job">
-          <img src="imgs/sbs.png" alt="sbs" class="job__logo">
-          <div class="job__description">
-            <p class="job__name">SBS academy: UXUI design, Web Publishing</p>
-            <p class="job__period">2020</p>
-          </div>
-        </div>
-        <div class="job">
-          <img src="imgs/galleryk.png" alt="galleryk" class="job__logo">
-          <div class="job__description">
-            <p class="job__name">Gallery-K, Online marketer</p>
-            <p class="job__period">2019</p>
-          </div>
-        </div>
-        <div class="job">
-          <img src="imgs/mcloud.png" alt="clound" class="job__logo">
-          <div class="job__description">
-            <p class="job__name">Marketing Cloud, Digital marketer</p>
-            <p class="job__period">2018</p>
-          </div>
-        </div>
-      </div>
-      <div class="job">
-        <img src="imgs/edm.png" alt="edm" class="job__logo">
-        <div class="job__description">
-          <p class="job__name">EDM-art, Art instructor</p>
-          <p class="job__period">2020-present</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Skills-->
-  <section id="skills" class="section">
-    <div class="section__container">
-      <h1>Skills</h1>
-      <h2>skills & Attributes</h2>
-      <p>
-        웹 퍼블리싱 <small>HTML,CSS,jQuery</small>를 잘 이해하며 유지보수를 고려한 코드작성과 협업을 위한 가이드 제작등 탄탄한 업무프로세스를 지향합니다. 웹표준을 바탕으로 꼼꼼한 시멘틱 마크업작성과 Marketing 경험을 살린 검색엔진최적화(SEO)를 통해 많은 유저들이 접근하게합니다.코드를 잘 그려내기 위해 계속 공부중으로
-        React,Sass, Zeplin 등 생산성과 협업을 위한 지식을 배우고 활용하고 싶습니다.
-      </p>
-      <div class="skillset">
-        <div class="skillset__left">
-          <h3 class="skillset__title">Skills</h3>
-          <div class="skill">
-            <div class="skill__description">
-              <span>HTML</span>
-              <span>90%</span>
+        <div class="about__majors">
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-html5"></i>
             </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 90%;"></div>
-            </div>
+            <h2 class="major__title">
+              HTML5
+            </h2>
+            <p class="major__description">
+              웹 표준을 바탕으로 꼼꼼한 시멘틱 마크업을 작성
+            </p>
           </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>CSS</span>
-              <span>80%</span>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-css3"></i>
             </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 80%;"></div>
-            </div>
+            <h2 class="major__title">
+              CSS3
+            </h2>
+            <p class="major__description">
+              유지보수를 위한 효율적인 코드와 깔끔한 레이아웃작성<br>
+              BEM 방법론에 따른 네이밍
+            </p>
           </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>jQuery</span>
-              <span>70%</span>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-js"></i>
+              <!-- <img src="imgs/jquery.png" alt="jquery"> -->
             </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 70%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>JavaScipt</span>
-              <span>65%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 65%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>Adobe photoshop</span>
-              <span>65%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 65%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>Adobe illustrator</span>
-              <span>65%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 65%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>English</span>
-              <span>80%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 80%;"></div>
-            </div>
-          </div>
-        </div>
-        <div class="skillset__right">
-          <div class="tools">
-            <h3 class="skillset__title">Tools</h3>
-            <ul class="tools__list">
-              <li><span>Visual Studio Code</span></li>
-              <li><span>Braket</span></li>
-              <li><span>Adobe photoshop</span></li>
-              <li><span>Adobe illustrator</span></li>
-              <li><span>Microsoft word</span></li>
-            </ul>
-          </div>
-          <div class="etc">
-            <ul class="etc__list">
-              <li><h3 class="skillset__title">Etc</h3></li>
-              <li><span>Git:분산 버전 관리 시스템</span></li>
-              <li><span>Web 호환성 준수(크롬,파이어폭스,사파리,오페라,IE)</span></li>
-              <li><span>Media query:모바일,타블렛 반응형제작</span></li>
-              <li><span>Flex box & Float 사용한 레이아웃 스타일링</span></li>
-              <li><span>jQuery, JavaScipt 사용한 동적 웹사이트구현</span></li>
-              <li><span>Slick, Wow, Scrolla등 Plug-in 사용으로 동적제어구현</span></li>
-              <li><span>영어회화 & 번역 중상급</span></li>
-              <li><span>Web design: 카드뉴스,웹배너,상세페이지 제작</span></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Work-->
-  <section id="work" class="section">
-   <div class="section__container">
-    <h1>My work</h1>
-    <h3>Projects</h3>
-    <div class="work__categories">
-      <button class="category__btn">
-        All<span class="category__count">10</span>
-      </button>
-      <button class="category__btn">
-        Responsive site<span class="category__count">2</span>
-      </button>
-      <button class="category__btn">
-        Clon coding<span class="category__count">2</span>
-      </button>
-      <button class="category__btn">
-        CSS & jQuery<span class="category__count">3</span>
-      </button>
-      <button class="category__btn">
-        Web design<span class="category__count">3</span>
-      </button>
-    </div>
-    <div class="work_projects">
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-      <a href="https://github.com/jongeun77/Portfolio.git" class="project" target="_blank">
-        <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
-        <div class="project__description">
-          <h3>Architure website</h3>
-          <span>Responsive Web</span>
-        </div>
-      </a>
-    </div>
-   </div>
-  </section>
-  <!--Testimonials-->
-  <section id="testimonials" class="section">
-    <div class="section__container">
-      <h1>testimonials</h1>
-    <h3>See what they say about me</h3>
-    <div class="testimonials">
-      <div class="testimonial">
-        <img src="imgs/testi.png" alt="people" class="testimonial__avatar">
-        <div class="testimonial__speech-bubble">
-          <p><i>
-            " 늘 새로운일에 끊임었이 도전하고 빠르게 변화하는 트렌드를 읽어들이는 얼리어탑터.<br>  긍정적인 성격으로 늘 밝은 에너지를 주며 어려운 상황에도 재빨리 바운스백하는 고도의 문제해결능력을 갖춘사람. <br> 타고난 예술감각과 언어구사력이 플러스로 무엇이든 시작하면 끝까지 매듭을 짓는 끈기력이 장점. "</i>
+            <h2 class="major__title">
+              jQuery & Javascript
+            </h2>
+            <p class="major__description">
+              다큐먼트에 동적요소 부여와 다양한 plug-in제어
           </p>
-          <p class="name"><a href="">Anne Kim/ <span>DYB</span> </a></p>
+          </div>
+        </div>
+        <div class="about__jobs">
+          <div class="job">
+            <img src="imgs/parsons.gif" alt="parsons" class="job__logo" >
+            <div class="job__description">
+              <p class="job__name">Parsons School of Design,Bachelor of Fine Arts</p>
+              <p class="job__period">2005-2009</p>
+          </div>
+          </div>
+          <div class="job">
+            <img src="imgs/sva.png" alt="sva" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">School of Visual Art, Fine arts</p>
+              <p class="job__period">2004</p>
+            </div>
+          </div>
+          <div class="job">
+            <img src="imgs/dku.jpeg" alt="dku" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">Dankook Graduate School, Visual Design</p>
+              <p class="job__period">2000-2001</p>
+            </div>
+          </div>
+          <div class="job">
+            <img src="imgs/ezen.png" alt="ezen" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">Ezen academy: Responsive Web, jQuery and JavaScipt, Adobe photoshop, Illust</p>
+              <p class="job__period">2005-2009</p>
+            </div>
+          </div>
+          <div class="job">
+            <img src="imgs/sbs.png" alt="sbs" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">SBS academy: UXUI design, Web Publishing</p>
+              <p class="job__period">2020</p>
+            </div>
+          </div>
+          <div class="job">
+            <img src="imgs/galleryk.png" alt="galleryk" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">Gallery-K, Online marketer</p>
+              <p class="job__period">2019</p>
+            </div>
+          </div>
+          <div class="job">
+            <img src="imgs/mcloud.png" alt="clound" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">Marketing Cloud, Digital marketer</p>
+              <p class="job__period">2018</p>
+            </div>
+          </div>
+        </div>
+        <div class="job">
+          <img src="imgs/edm.png" alt="edm" class="job__logo">
+          <div class="job__description">
+            <p class="job__name">EDM-art, Art instructor</p>
+            <p class="job__period">2020-present</p>
+          </div>
         </div>
       </div>
-      <div class="testimonial">
-        <img src="imgs/testimonial.jpg" alt="people" class="testimonial__avatar">
-        <div class="testimonial__speech-bubble">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quasi nihil unde saepe quos. Tempore, reiciendis ea, voluptate at porro voluptas debitis nostrum velit illo quis voluptatem delectus, reprehenderit quia.
-          </p>
-          <p class="name"><a href="www.facebook.com" target="_blank">Ellie</a></p>
+    </section>
+    <!--Skills-->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>skills & Attributes</h2>
+        <p>
+          웹 퍼블리싱 <small>HTML,CSS,jQuery</small>를 잘 이해하며 유지보수를 고려한 코드작성과 협업을 위한 가이드 제작등 탄탄한 업무프로세스를 지향합니다. 웹표준을 바탕으로 꼼꼼한 시멘틱 마크업작성과 Marketing 경험을 살린 검색엔진최적화(SEO)를 통해 많은 유저들이 접근하게합니다.코드를 잘 그려내기 위해 계속 공부중으로
+          React,Sass, Zeplin 등 생산성과 협업을 위한 지식을 배우고 활용하고 싶습니다.
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>jQuery</span>
+                <span>70%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 70%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JavaScipt</span>
+                <span>65%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 65%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Adobe photoshop</span>
+                <span>65%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 65%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Adobe illustrator</span>
+                <span>65%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 65%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>English</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>Braket</span></li>
+                <li><span>Adobe photoshop</span></li>
+                <li><span>Adobe illustrator</span></li>
+                <li><span>Microsoft word</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <ul class="etc__list">
+                <li><h3 class="skillset__title">Etc</h3></li>
+                <li><span>Git:분산 버전 관리 시스템</span></li>
+                <li><span>Web 호환성 준수(크롬,파이어폭스,사파리,오페라,IE)</span></li>
+                <li><span>Media query:모바일,타블렛 반응형제작</span></li>
+                <li><span>Flex box & Float 사용한 레이아웃 스타일링</span></li>
+                <li><span>jQuery, JavaScipt 사용한 동적 웹사이트구현</span></li>
+                <li><span>Slick, Wow, Scrolla등 Plug-in 사용으로 동적제어구현</span></li>
+                <li><span>영어회화 & 번역 중상급</span></li>
+                <li><span>Web design: 카드뉴스,웹배너,상세페이지 제작</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+    <!--Work-->
+    <section id="work" class="section">
+    <div class="section__container">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn active" data-filter="*">
+          All<span class="category__count">10</span>
+        </button>
+        <button class="category__btn" data-filter="responsive">
+          Responsive site<span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="clon">
+          Clon coding<span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="css">
+          CSS & jQuery<span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="web">
+          Web design<span class="category__count">3</span>
+        </button>
+      </div>
+      <div class="work_projects">
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="responsive" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="responsive" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="clon" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="clon" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="css" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="css" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="css" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="web" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="web" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+        <a href="https://github.com/jongeun77/Portfolio.git" class="project" data-type="web" target="_blank">
+          <img src="imgs/project/youtube.png" alt="Responsive web" class="project__img">
+          <div class="project__description">
+            <h3>Architure website</h3>
+            <span>Responsive Web</span>
+          </div>
+        </a>
+      </div>
     </div>
-    </div>
-  </section>
-  <!--Contact-->
-  <section id="contact" class="section">
-    <h1 class="contact__title">Let's talk</h1>
-    <h2 class="contact__email"><a href="mailto: jenn.oh1110@gmail.com">jenn.oh1110@gmail.com</a></h2>
-    <div class="contact__links">
-      <a href="https://github.com/jongeun77/Portfolio.git" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </div>
-    <p class="contact__rights">2021 Jongeun's Portfoliio - All rights reseved</p>
-  </section>
+    </section>
+    <!--Testimonials-->
+    <section id="testimonials" class="section">
+      <div class="section__container">
+        <h1>testimonials</h1>
+      <h3>See what they say about me</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="imgs/testi.png" alt="people" class="testimonial__avatar">
+          <div class="testimonial__speech-bubble">
+            <p><i>
+              " 늘 새로운일에 끊임었이 도전하고 빠르게 변화하는 트렌드를 읽어들이는 얼리어탑터.<br>  긍정적인 성격으로 늘 밝은 에너지를 주며 어려운 상황에도 재빨리 바운스백하는 고도의 문제해결능력을 갖춘사람. <br> 타고난 예술감각과 언어구사력이 플러스로 무엇이든 시작하면 끝까지 매듭을 짓는 끈기력이 장점. "</i>
+            </p>
+            <p class="name"><a href="">Anne Kim/ <span>DYB</span> </a></p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="imgs/testimonial.jpg" alt="people" class="testimonial__avatar">
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quasi nihil unde saepe quos. Tempore, reiciendis ea, voluptate at porro voluptas debitis nostrum velit illo quis voluptatem delectus, reprehenderit quia.
+            </p>
+            <p class="name"><a href="www.facebook.com" target="_blank">Ellie</a></p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--Contact-->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email"><a href="mailto: jenn.oh1110@gmail.com">jenn.oh1110@gmail.com</a></h2>
+      <div class="contact__links">
+        <a href="https://github.com/jongeun77/Portfolio.git" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2021 Jongeun's Portfoliio - All rights reseved</p>
+    </section>
+    <!-- Aroow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
 
-</body>
+  </body>
 </html>
