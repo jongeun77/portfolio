@@ -110,11 +110,12 @@ p {
 }
 
 .navbar__menu__item {
-  padding: 8px 12px;
   margin: 0 4px;
+  padding: 8px 12px;
   color: var(--color-white);
   cursor: pointer;
   border-radius: var(--size-border-radious);
+  border: 1px solid transparent;
 }
 
 .navbar__menu__item.active {
@@ -122,8 +123,8 @@ p {
 }
 
 .navbar__menu__item:hover {
+  border: 1px solid var(--color-white);
   background-color: var(--color-dark-pink);
-  border-radius: 4px;
 }
 
 /* Home */
@@ -316,13 +317,13 @@ p {
   font-size: var(--font-regular);
   padding: 8px 48px;
 }
-.category__btn.active,
+.category__btn.selected,
 .category__btn:hover{
   background: var(--color-pink);
   color: var(--color-white);
 }
 /*category__btn에 액션이 있을때만 category__count가 쭉보여야함*/
-.category__btn.active .category__count,
+.category__btn.selected .category__count,
 .category__btn:hover .category__count{
   opacity: 1;
   top: 0;

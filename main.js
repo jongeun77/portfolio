@@ -22,6 +22,7 @@ navbarMenu.addEventListener('click',(event) =>{
   if(link ==null){
     return;
   }
+  
   console.log(event.target.dataset.link);
   scrollIntoView(link);
 })
@@ -57,6 +58,15 @@ workBtnContainer.addEventListener('click', (e) => {
   if(filter == null){
     return;
   }
+  //Remove selection from the previous item ammd slect the new one
+
+  const active = document.querySelector('.category__btn.selected')
+  active.classList.remove('selected');
+  e.target.classList.add('selected');
+  const target =
+  e.target.nodName === 'BUTTON' ? e.target : e.target.parentNode;
+  
+
   console.log(filter);
   projects.forEach((project)=> {
     console.log(project.dataset.type);
