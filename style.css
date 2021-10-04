@@ -385,17 +385,17 @@ p {
 }
 
 .project__description h3{
-  color: var(--color-white);
+  color: var(--color-orange);
 }
 .project__description h3:after{
   content: "";
-  width: 25px;
+  width: 50px;
   height: 2px;
   display: block;
-  background-color: var(--color-dark-grey);
+  background-color: var(--color-dark-white);
   position: relative;
   left: 50%;
-  margin-left: -12px;
+  transform: translateX(-50%);
   margin-top: 8px;
 }
 /* Testimonials */
@@ -491,12 +491,19 @@ p {
   #navbar{
     flex-direction: column; /* logo, navbard가 수직으로되야하고 얼라인 아이템이반대로 가로가 되니까 왼쪽*/
     align-items: flex-start;
+    background-color: var(--color-pink);
+  }
+  #navbar.navbar--dark{
+    padding: 16px;
   }
   .navbar__menu{
     flex-direction: column;
     text-align: center;
     width: 100%;
     display: none;
+  }
+  .navbar__menu.open{
+    display: block;
   }
   .about__majors{
     flex-direction: column;
