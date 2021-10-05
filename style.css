@@ -157,6 +157,10 @@ p {
   border: 2px solid var(--color-white);
   border-radius: 4px;
 }
+.home__contact:hover{
+  background-color: var(--color-pink);
+
+}
 
 /* About */
 .section {
@@ -462,8 +466,8 @@ p {
 }
 .navbar__toggle-btn{
   position:absolute;
-  right: 32px;
-  top: 14px;
+  right: 16px;
+  top: 16px;
   font-size: 24px;
   color: var(--color-white);
   display: none;
@@ -488,6 +492,9 @@ p {
   .navbar__toggle-btn{
     display: block;
   }
+  #about{
+    padding: 16px;
+  }
   #navbar{
     flex-direction: column; /* logo, navbard가 수직으로되야하고 얼라인 아이템이반대로 가로가 되니까 왼쪽*/
     align-items: flex-start;
@@ -505,6 +512,10 @@ p {
   .navbar__menu.open{
     display: block;
   }
+  .home__avatar{
+    width: 220px;
+    height: 220px;
+  }
   .about__majors{
     flex-direction: column;
   }
@@ -514,11 +525,43 @@ p {
   .skillset{
     flex-direction: column;
   }
+  .category__btn{
+    padding: 8px 10px;
+    margin: 4px 0;
+    width: 100%;
+  }
   .project{
     flex-grow: 1;
   }
   .testimonial__avatar{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .testimonial__speech-bubble {
+    padding: 5px;
+  }
+  .testimonial__speech-bubble p {
+    font-size: 10px;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonial:nth-child(2){
+    flex-direction: column;
+  }
+  .testimonial:nth-child(2) .testimonial__avatar{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .arrow-up{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    right: 16px;
+    bottom: 16px;
   }
 }
