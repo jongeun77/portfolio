@@ -402,6 +402,10 @@ p {
   transform: translateX(-50%);
   margin-top: 8px;
 }
+.project__description span{
+  font-size: 12px ;
+  line-height: 1.35em;
+}
 /* Testimonials */
 #testimonials{
   background-color: var(--color-light-white);
