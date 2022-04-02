@@ -311,6 +311,9 @@ p {
   font-size: 14px;
   padding-bottom: 4px;
 }
+.tools__list li{ 
+  line-height: 1.2;
+}
 /* Work */
 .work__categories{
   margin: 40px;
