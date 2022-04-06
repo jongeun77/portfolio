@@ -4,16 +4,17 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
-  --color-dark-pink: #ff6863;
+  --color-pink: #3f257a;
+  --color-dark-pink: #b82f6fd2;
   --color-black: #4d4d4d;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
-  --color-blue: #73aace;
-  --color-yellow: #fff7d1;
-  --color-orange: #feb546;
+  --color-blue: #8b8ea5;
+  --color-yellow: #f3dfe8;
+  --color-orange: #ca4181;
   --color-black: #000000;
+  --color-arrow: #6b5d8b;
   /* Font size */
   --font-large: 48px;
   --font-medium: 28px;
@@ -488,7 +489,7 @@ p {
   height: 70px;
   font-size: 50px;
   color: var(--color-white);
-  background-color: var(--color-pink);
+  background-color: var(--color-arrow);
   border-radius: 50%;
   display: none;
 }
