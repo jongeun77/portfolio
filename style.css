@@ -129,7 +129,7 @@ p {
 
 /* Home */
 #home {
-  background: url('imgs/home-background1.png')no-repeat center/cover;
+  background: url('imgs/home-background1.png') no-repeat center/cover;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -168,7 +168,7 @@ p {
   text-align: center;
   margin: auto;
 }
-/* 섹션안에 컨테이너를 줘서 더이상 안늘어나게 중앙정렬*/
+
 .section__container {
   max-width: 1200px;
   margin: auto;
@@ -329,7 +329,7 @@ p {
   background: var(--color-pink);
   color: var(--color-white);
 }
-/*category__btn에 액션이 있을때만 category__count가 쭉보여야함*/
+
 .category__btn.selected .category__count,
 .category__btn:hover .category__count{
   opacity: 1;
@@ -381,7 +381,7 @@ p {
   justify-content: center;
   opacity: 0;
   transition: all var(--animation-duration);
-  transform: translateY(10px);/*animation*/
+  transform: translateY(10px);
 }
 .project.invisible{
   display: none;
@@ -503,7 +503,7 @@ p {
     padding: 16px;
   }
   #navbar{
-    flex-direction: column; /* logo, navbard가 수직으로되야하고 얼라인 아이템이반대로 가로가 되니까 왼쪽*/
+    flex-direction: column; 
     align-items: flex-start;
     background-color: var(--color-pink);
   }
