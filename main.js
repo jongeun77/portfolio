@@ -17,9 +17,9 @@ document.addEventListener('scroll', () =>{
 // Handle scrolling when tapping on the navbar menu
 const navbarMenu = document.querySelector('.navbar__menu');
 navbarMenu.addEventListener('click',(event) =>{
-  console.log(event.target.dataset.link); //data-link에 만든 아이디가 나오게 함
-  const target = event.target;//undefined처리위해 아이디가 클릭되면 데이타 링크가 나오게하게끔
-  const link = target.dataset.link; //언디파인일때는 하지말고.
+  console.log(event.target.dataset.link); 
+  const target = event.target;
+  const link = target.dataset.link;
   if(link ==null){
     return;
   }
