@@ -55,6 +55,13 @@ button {
   outline: none;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
 /* Typography */
 h1 {
   font-size: var(--font-large);
@@ -109,7 +116,16 @@ p {
   font-weight: var(--weight-semi-bold);
   color: var(--color-white);
 }
+.navbar__logo .fab{
+  animation: rotate_logo 9s linear infinite;
+  transform-origin: 50% 50%;
+}
 
+@keyframes rotate_logo{
+  100%{
+    transform: rotate(360deg);
+  }
+}
 .navbar__menu__item {
   margin: 0 4px;
   padding: 8px 12px;
@@ -147,8 +163,12 @@ p {
 .home__title,
 .home__description {
   color: var(--color-white);
+  transition: 0.7s;
 }
+.home__title:hover {
+ transform: rotateY(360deg);
 
+}
 .home__contact {
   color: var(--color-white);
   font-size: var(--font-regular);
@@ -160,7 +180,14 @@ p {
 }
 .home__contact:hover{
   background-color: var(--color-pink);
+}
+.rotate { 
+  animation: rotate_image 8s linear 2;
+  transform-origin: 50% 50%;
+} 
 
+@keyframes rotate_image{ 
+  100% { transform: rotateY(360deg); } 
 }
 
 /* About */
@@ -303,6 +330,14 @@ p {
 .skill__value{
   height: 3px;
   background-color: var(--color-orange);
+ 
+}
+.skill__value:nth-child(1){
+ animation: skill01 0.6s linear;
+}
+@keyframes skill01 {
+  0%{ width: 0px;}
+  100% { width: 90px;}
 }
 .tools,
 .etc{
