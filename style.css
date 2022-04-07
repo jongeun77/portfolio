@@ -144,6 +144,74 @@ p {
   background-color: var(--color-dark-pink);
 }
 
+.blink { 
+  animation: blink-effect 1s step-end infinite; 
+  color: #fff; 
+  font-size: 5px;
+  opacity: 0.6;
+  position: absolute;
+}
+.blink:nth-child(1){
+  top: 28%;
+  left: 20%;
+}
+.blink:nth-child(2){
+  top: 30%;
+  left: 10%;
+  animation-delay: 1.2s;
+  font-size: 10px;
+}
+.blink:nth-child(3){
+  top: 20%;
+  left: 17%;
+  animation-delay: 1.4s;
+  font-size: 10px;
+}
+.blink:nth-child(4){
+  top: 15%;
+  left: 20%;
+  animation-delay: 1.2s;
+}
+.blink:nth-child(5){
+  top: 20%;
+  left: 08%;
+  animation-delay: 1.6s;
+  opacity: 0.5;
+}
+.blink:nth-child(6){
+  top: 55%;
+  right: 20%;
+  animation-delay: 1.2s;
+  opacity: 0.5;
+}
+.blink:nth-child(7){
+  top: 40%;
+  right: 10%;
+  animation-delay: 1.4s;
+  opacity: 0.5;
+}
+.blink:nth-child(8){
+  top: 55%;
+  right: 15%;
+  animation-delay: 1.6s;
+  opacity: 0.5;
+}
+.blink:nth-child(9){
+  top: 70%;
+  right: 20%;
+  animation-delay: 1.4s;
+  opacity: 0.5;
+}
+.blink:nth-child(10){
+  top: 80%;
+  right: 10%;
+  animation-delay: 1.2s;
+  opacity: 0.5;
+}
+@keyframes blink-effect { 
+  50% { opacity: 0;}
+}
+
 /* Home */
 #home {
   background: url('imgs/home-background1.png') no-repeat center/cover;
@@ -532,6 +600,9 @@ p {
   display: block;
 }
 @media screen and (max-width: 768px){
+  .blink{
+    display: none;
+  }
   .navbar__toggle-btn{
     display: block;
   }
